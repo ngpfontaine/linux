@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Starting XBOXDRV. Need Pass."
+echo "----------------------------"
+echo "----------------------------"
+sudo xboxdrv -c /home/nic/.xb
