@@ -1,0 +1,8 @@
+neofetch
+evolution (for gnome calendar)
+avr-gcc
+albert
+m64py
+unetbootin
+zsnes
+rambox
