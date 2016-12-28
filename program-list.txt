@@ -6,3 +6,8 @@ m64py
 unetbootin
 zsnes
 rambox
+indictaor-sound-switcher
+kdenlive
+gnome-twitch
+twitch-curses
+livestreamer
