@@ -11,5 +11,8 @@ kdenlive
 gnome-twitch
 twitch-curses
 livestreamer
+indicator-cpufreq
+tlp
+jupiter
 
 - peek
