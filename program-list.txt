@@ -11,3 +11,5 @@ kdenlive
 gnome-twitch
 twitch-curses
 livestreamer
+
+- peek
