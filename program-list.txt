@@ -14,5 +14,6 @@ livestreamer
 indicator-cpufreq
 tlp
 jupiter
+sc-controller
 
 - peek
