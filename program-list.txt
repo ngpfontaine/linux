@@ -15,5 +15,6 @@ indicator-cpufreq
 tlp
 jupiter
 sc-controller
+steam-devices
 
 - peek
