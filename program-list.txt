@@ -16,5 +16,6 @@ tlp
 jupiter
 sc-controller
 steam-devices
+ranger
 
 - peek
