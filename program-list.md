@@ -1,4 +1,4 @@
-***INSTALL***
+***INSTALL***    
 neofetch
 evolution (for gnome calendar)
 avr-gcc
