@@ -1,4 +1,5 @@
 ***INSTALL***    
+
 neofetch
 evolution (for gnome calendar)
 avr-gcc
@@ -20,7 +21,8 @@ steam-devices
 ranger    
     
     
-***CHECK-OUT***
+***CHECK-OUT***    
+
 - peek (gif screen recording)
 - polybar (system status-bar)
 - powerline (terminal status-bar)
