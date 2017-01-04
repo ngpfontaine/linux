@@ -21,6 +21,6 @@ ranger
     
     
 ***CHECK-OUT***    
-- peek (gif screen recording)
-- polybar (system status-bar)
-- powerline (terminal status-bar)
+peek (gif screen recording)
+polybar (system status-bar)
+powerline (terminal status-bar)
