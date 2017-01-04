@@ -1,3 +1,4 @@
+***INSTALL***
 neofetch
 evolution (for gnome calendar)
 avr-gcc
@@ -16,6 +17,10 @@ tlp
 jupiter
 sc-controller
 steam-devices
-ranger
-
-- peek
+ranger    
+    
+    
+***CHECK-OUT***
+- peek (gif screen recording)
+- polybar (system status-bar)
+- powerline (terminal status-bar)
