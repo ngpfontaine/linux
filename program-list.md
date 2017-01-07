@@ -24,3 +24,6 @@
 - peek (gif screen recording)
 - polybar (system status-bar)
 - powerline (terminal status-bar)
+- doom-wad-shareware
+- prboom-plus (for doom)
+
