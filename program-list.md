@@ -20,6 +20,7 @@
 - ranger    
 - doom-wad-shareware
 - prboom-plus (for doom)
+- glances (system monitor)
     
     
 ***CHECK-OUT***    
