@@ -18,12 +18,11 @@
 - sc-controller
 - steam-devices
 - ranger    
+- doom-wad-shareware
+- prboom-plus (for doom)
     
     
 ***CHECK-OUT***    
 - peek (gif screen recording)
 - polybar (system status-bar)
 - powerline (terminal status-bar)
-- doom-wad-shareware
-- prboom-plus (for doom)
-
