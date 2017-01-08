@@ -1,14 +1,14 @@
 ***INSTALL***    
-- neofetch   
+- neofetch (terminal system specs)
 - evolution (for gnome calendar)   
 - avr-gcc   
-- albert   
-- m64py   
-- unetbootin   
-- zsnes
-- rambox
-- indictaor-sound-switcher
-- kdenlive
+- albert (launcher)
+- m64py (n64 emulator)
+- unetbootin (boot drive creator)
+- zsnes (snes emulator)
+- rambox (electron chat aggregate)
+- indicator-sound-switcher
+- kdenlive (video)
 - gnome-twitch
 - twitch-curses
 - livestreamer
