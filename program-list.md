@@ -21,6 +21,7 @@
 - doom-wad-shareware
 - prboom-plus (for doom)
 - glances (system monitor)
+- volti (audio applet)
     
     
 ***CHECK-OUT***    
