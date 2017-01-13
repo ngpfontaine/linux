@@ -22,6 +22,7 @@
 - prboom-plus (for doom)
 - glances (system monitor)
 - volti (audio applet)
+- unclutter (hide cursor)
     
     
 ***CHECK-OUT***    
