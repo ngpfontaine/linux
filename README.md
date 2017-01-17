@@ -7,7 +7,7 @@
 `.move-next-monitor.sh` - send window to other monitor (install ***wdotool*** & ***wmctrl***)   
 `.xinput-evoluent.sh` - btn config for evoluent mouse (change ID # per usb slot)
   
----   
+ 
     
 ***/bin***  
     
