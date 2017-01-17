@@ -1,42 +1,42 @@
 ***GRAPHICS DRIVERS***    
 
-// Check nvidia drivers/packages installed
+// Check nvidia drivers/packages installed   
 `pacman -Ss nvidia | grep installed`    
 
-// Check OpenGL status
+// Check OpenGL status   
 `glxinfo | grep OpenGL`      
 
-// set nvidia as default
-`mhwd-gpu --setgl nvidia` 
+// set nvidia as default   
+`mhwd-gpu --setgl nvidia`   
 
-// nvidia version
-nvidia-smi
+// nvidia version   
+nvidia-smi   
 
 ***GRUB***    
 
-`update-grub`
-`grub-mkconfig`
+`update-grub`   
+`grub-mkconfig`   
 
 ***DRIVES***    
 
-// to list all drives' UUIDS
-`sudo blkid`
+// to list all drives' UUIDS   
+`sudo blkid`   
 
-fdisk -l
-lsblk
+fdisk -l   
+lsblk   
 
-// mount drive to `/mnt` dir
-mount /dev/sda1 /mnt/
-umount /dev/sda1
+// mount drive to `/mnt` dir   
+mount /dev/sda1 /mnt/   
+umount /dev/sda1   
 
 ***APPLICATIONS***    
 
-// start xampp
-`sudo /opt/lampp/lampp start`
+// start xampp   
+`sudo /opt/lampp/lampp start`   
 
-// tor
-// cd into the tor dl directory, then run the next command
-`./start-tor-browser.desktop`
+// tor   
+// cd into the tor dl directory, then run the next command   
+`./start-tor-browser.desktop`   
 
 ***SSH & SERVER***    
 
