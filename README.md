@@ -1,6 +1,6 @@
 # Files & Scripts      
     
-***/home/nic***   
+### /home/nic   
     
 `.Xmodmap` - natural mouse scrolling  
 `.xb` - xboxdrv configuration for 1 xbox 360 controller  
@@ -9,14 +9,14 @@
   
  
     
-***/bin***  
+### /bin  
     
 `xbc` - cmd for launching xboxdrv w/ config file  
 
 
 # Applications
 
-***INSTALL***    
+### INSTALL    
 - neofetch (terminal system specs)
 - evolution (for gnome calendar)   
 - avr-gcc   
@@ -43,7 +43,7 @@
 - unclutter (hide cursor)
     
     
-***CHECK-OUT***    
+### CHECK-OUT    
 - peek (gif screen recording)
 - polybar (system status-bar)
 - powerline (terminal status-bar)
