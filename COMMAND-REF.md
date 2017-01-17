@@ -1,4 +1,4 @@
-***GRAPHICS DRIVERS***    
+### GRAPHICS DRIVERS    
 
 Check nvidia drivers/packages installed   
 `pacman -Ss nvidia | grep installed`    
@@ -12,12 +12,12 @@ Check nvidia drivers/packages installed
 // nvidia version   
 nvidia-smi   
 
-***GRUB***    
+### GRUB    
 
 `update-grub`   
 `grub-mkconfig`   
 
-***DRIVES***    
+### DRIVES    
 
 // to list all drives' UUIDS   
 `sudo blkid`   
@@ -29,7 +29,7 @@ lsblk
 mount /dev/sda1 /mnt/   
 umount /dev/sda1   
 
-***APPLICATIONS***    
+### APPLICATIONS    
 
 // start xampp   
 `sudo /opt/lampp/lampp start`   
@@ -38,7 +38,7 @@ umount /dev/sda1
 // cd into the tor dl directory, then run the next command   
 `./start-tor-browser.desktop`   
 
-***SSH & SERVER***    
+### SSH & SERVER    
 
 // print local ssh key   
 `cat ~/.ssh/id_rsa.pub`   
@@ -51,7 +51,7 @@ umount /dev/sda1
 ssh-keygen -t rsa   
 cat ~/.ssh/id_rsa.pub | ssh [user]@[IP address] "cat >> ~/.ssh/authorized_keys"   
 
-***INPUT***    
+### INPUT    
 
 // xinput properties   
 `xinput list`   
@@ -61,7 +61,7 @@ cat ~/.ssh/id_rsa.pub | ssh [user]@[IP address] "cat >> ~/.ssh/authorized_keys"
 - xboxdrv   
 - qjoypad   
 
-***AUDIO***    
+### AUDIO    
 
 // mute pulseaudio output   
 /usr/bin/pulseaudio-ctl mute      
@@ -72,7 +72,7 @@ cat ~/.ssh/id_rsa.pub | ssh [user]@[IP address] "cat >> ~/.ssh/authorized_keys"
 // change / mute toggle audio   
 amixer -D pulse sset Master 5%+   
 
-***UBUNTU***    
+### UBUNTU    
 
 // CHANGE TIMEZONE UBUNTU   
 sudo dpkg-reconfigure tzdata   
@@ -81,12 +81,12 @@ sudo dpkg-reconfigure tzdata
 install gnome-control-center   
 env XDG_CURRENT_DESKTOP=GNOME gnome-control-center   
 
-***NETWORK***    
+### NETWORK    
 
 // FIND NAME OF LOCAL NET DEVICE   
 ls /sys/class/net   
 
-***PERMISSIONS***    
+### PERMISSIONS    
 
 // SUDOERS, DISABLE SUDO AUTH ON SCRIPT   
 YOURNAME ALL = NOPASSWD: /usr/bin/apache2ctl   
