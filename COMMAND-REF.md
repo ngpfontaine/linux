@@ -1,6 +1,7 @@
 ### GRAPHICS DRIVERS    
 
 > Check nvidia drivers/packages installed   
+
 `pacman -Ss nvidia | grep installed`    
 
 // Check OpenGL status   
