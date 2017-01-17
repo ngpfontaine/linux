@@ -1,8 +1,6 @@
-[1. Files & Scripts](https://github.com/ngpfontaine/linux/blob/master/README.md#files--scripts)   
-[2. Applications](https://github.com/ngpfontaine/linux/blob/master/README.md#applications)   
-[3. Command Reference](https://github.com/ngpfontaine/linux/blob/master/README.md#command-reference)   
-
---
+> [1. Files & Scripts](https://github.com/ngpfontaine/linux/blob/master/README.md#files--scripts)   
+> [2. Applications](https://github.com/ngpfontaine/linux/blob/master/README.md#applications)   
+> [3. Command Reference](https://github.com/ngpfontaine/linux/blob/master/README.md#command-reference)   
 
 # 1. Files & Scripts      
     
