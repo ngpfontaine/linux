@@ -3,8 +3,7 @@
 Check nvidia drivers/packages installed   
 `pacman -Ss nvidia | grep installed`    
     
-> Check OpenGL status   
-
+Check OpenGL status   
 `glxinfo | grep OpenGL`      
 
 > set nvidia as default   
