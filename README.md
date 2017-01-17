@@ -34,6 +34,7 @@
 - indicator-cpufreq
 - tlp
 - jupiter
+- deluge (torrent)
 - sc-controller
 - steam-devices
 - ranger    
@@ -48,6 +49,10 @@
 - peek (gif screen recording)
 - polybar (system status-bar)
 - powerline (terminal status-bar)
+- cwiid (wiimote)
+- wiican (wiimote)
+- tilda
+- ksuperkey
 
 # Command Reference
 
