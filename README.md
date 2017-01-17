@@ -13,7 +13,6 @@
     
 `xbc` - cmd for launching xboxdrv w/ config file  
 
----
 
 # Applications
 
