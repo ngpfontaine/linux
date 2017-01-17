@@ -39,7 +39,7 @@ umount /dev/sda1
 
 ### APPLICATIONS    
 
-> start xampp   
+start xampp   
 
 `sudo /opt/lampp/lampp start`   
 
