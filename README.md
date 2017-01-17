@@ -1,6 +1,7 @@
 > [1. Files & Scripts](https://github.com/ngpfontaine/linux/blob/master/README.md#files--scripts)   
 > [2. Applications](https://github.com/ngpfontaine/linux/blob/master/README.md#applications)   
 > [3. Command Reference](https://github.com/ngpfontaine/linux/blob/master/README.md#command-reference)   
+> [4. Support Links](https://github.com/ngpfontaine/linux/blob/master/README.md#support-links)   
 
 # 1. Files & Scripts      
     
@@ -153,4 +154,10 @@ find name of local net device
 
 sudoers, disable sudo auth on script   
 `[USER] ALL = NOPASSWD: /usr/bin/[SCRIPT NAME]`   
+
+# Support Links
+
+[SSH Win to Home Linux w/ Putty - Superuser.com](http://superuser.com/questions/603831/how-to-connect-home-computers-linux-from-office-computer-windows-using-putty)   
+
+[Maya 2016 SP6 - Autodesk.com](https://knowledge.autodesk.com/support/maya/downloads/caas/downloads/content/maya-2016-service-pack-6.html)
 
