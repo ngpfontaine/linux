@@ -1,5 +1,14 @@
-#!/bin/sh
-echo "Starting XBOXDRV. Need Pass."
-echo "----------------------------"
-echo "----------------------------"
-sudo xboxdrv -c /home/nic/.xb
+#!/bin/bash
+
+if [[ $1 == "1" ]];
+then
+	sudo xboxdrv -c /home/nic/.xb01
+
+elif [[ $1 == "2" ]];
+then
+	sudo xboxdrv --daemon -i 0 --detach-kernel-driver --next-controller -i 1 --detach-kernel-driver -c /home/nic/.xb02
+
+else
+	sudo xboxdrv -c /home/nic/.xb01
+
+fi
