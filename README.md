@@ -54,6 +54,7 @@
 - wiican (wiimote)
 - tilda
 - ksuperkey
+- dunst (desktop notifications)
 
 # Command Reference
 
