@@ -98,6 +98,9 @@ tor
 cd into the tor dl directory, then run the next command   
 `./start-tor-browser.desktop`   
 
+ffmpeg batch convert
+`for i in *.avi; do ffmpeg -i "$i" "${i%.avi}.mov"; done`    
+
 ### SSH & SERVER    
 
 create local, public ssh key    
