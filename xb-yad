@@ -1,0 +1,32 @@
+#!/bin/bash
+
+function one {
+kill $1
+}
+
+files=$(yad --center --width 100 --height 100 --title "Xboxdrv" \
+    --text="  Select Number of Controllers:" \
+    --columns=3 \
+    --button="One":"bash -c 'sudo xboxdrv -c /home/nic/.xb01'" --auto-kill \
+    --button="Two":"bash -c 'sudo xboxdrv --daemon -i 0 --detach-kernel-driver --next-controller -i 1 --detach-kernel-driver -c /home/nic/.xb02'" \
+    --button="Stop":"kill $1" \
+    --separator="" \
+    --columns=1 \
+    --button="Close:0" \
+    --on-top \
+    --center \
+)
+
+ret=$?
+
+[[ $ret -eq 0 ]] && exit 0
+
+if [[ $ret == "one" ]]; then
+      sudo xboxdrv -c /home/nic/.xb01
+fi
+
+if [[ $ret -eq 2 ]]; then
+
+    sudo xboxdrv --daemon -i 0 --detach-kernel-driver --next-controller -i 1 --detach-kernel-driver -c /home/nic/.xb02
+
+fi
