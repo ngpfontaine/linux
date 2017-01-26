@@ -44,6 +44,7 @@
 - glances (system monitor)
 - volti (audio applet)
 - unclutter (hide cursor)
+- ncdu (ncurses disk usage)
     
     
 ### CHECK-OUT    
