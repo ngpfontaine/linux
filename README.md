@@ -116,7 +116,10 @@ check access log
 `sudo tail -100 /var/log/apache2/access.log`   
 
 check error log   
-`sudo tail -100 /var/log/apache2/error.log`    
+`sudo tail -100 /var/log/apache2/error.log`   
+
+signing fails when adding key b/c ssh-agent already running
+`ssh-add` 
 
 ### INPUT    
 
@@ -164,4 +167,8 @@ sudoers, disable sudo auth on script
 [SSH Win to Home Linux w/ Putty - Superuser.com](http://superuser.com/questions/603831/how-to-connect-home-computers-linux-from-office-computer-windows-using-putty)   
 
 [Maya 2016 SP6 - Autodesk.com](https://knowledge.autodesk.com/support/maya/downloads/caas/downloads/content/maya-2016-service-pack-6.html)
+
+[yktools - touchpad toggle](https://github.com/yktoo/yktools/blob/master/touchpad-toggle)  
+
+[Private Git Server - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps)    
 
