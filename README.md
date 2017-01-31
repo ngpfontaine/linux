@@ -45,7 +45,8 @@
 - volti (audio applet)
 - unclutter (hide cursor)
 - ncdu (ncurses disk usage)
-- gpick (colorpicker)
+- gpick (colorpicker)   
+- mc (terminal file browser w/ ftp)   
     
     
 ### CHECK-OUT    
@@ -174,3 +175,4 @@ sudoers, disable sudo auth on script
 
 [Private Git Server - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps)    
 
+[Manage Dotfiles on github - smalley](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)   
