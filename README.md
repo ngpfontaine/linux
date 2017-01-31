@@ -47,7 +47,7 @@
 - ncdu (ncurses disk usage)
 - gpick (colorpicker)   
 - mc (terminal file browser w/ ftp)   
-    
+- rofi (launcher)    
     
 ### CHECK-OUT    
 - peek (gif screen recording)
