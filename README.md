@@ -183,4 +183,6 @@ sudoers, disable sudo auth on script
 
 [Private Git Server - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps)    
 
-[Manage Dotfiles on github - smalley](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)   
+[Manage Dotfiles on github - smalley](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)  
+
+[Encrypt home folder Ubuntu - Howtogeek](http:/www.howtogeek.com/116032/how-to-encrypt-your-home-folder-after-installing-ubuntu/)
