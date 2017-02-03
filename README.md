@@ -104,6 +104,14 @@ cd into the tor dl directory, then run the next command
 ffmpeg batch convert
 `for i in *.avi; do ffmpeg -i "$i" "${i%.avi}.mov"; done`    
 
+### NODE
+
+won't install
+`rm -rf node_modules && npm cache clean && npm install`   
+
+symbolic link for nodejs & node
+`ls -s /usr/bin/nodejs/usr/bin/node`   
+
 ### SSH & SERVER    
 
 create local, public ssh key    
