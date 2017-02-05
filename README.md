@@ -58,6 +58,8 @@
 - tilda
 - ksuperkey
 - dunst (desktop notifications)
+- kde connect (connect devices & control)
+- slash (slack terminal)
 
 # Command Reference
 
