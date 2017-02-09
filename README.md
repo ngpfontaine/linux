@@ -47,7 +47,8 @@
 - ncdu (ncurses disk usage)
 - gpick (colorpicker)   
 - mc (terminal file browser w/ ftp)   
-- rofi (launcher)    
+- rofi (launcher)   
+- rtv (reddit terminal viewer)
     
 ### CHECK-OUT    
 - peek (gif screen recording)
