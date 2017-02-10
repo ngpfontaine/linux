@@ -133,7 +133,33 @@ check error log
 `sudo tail -100 /var/log/apache2/error.log`   
 
 signing fails when adding key b/c ssh-agent already running
-`ssh-add` 
+`ssh-add`   
+
+### NEW WEBSITE   
+
+add nameservers to registrar   
+
+create NS, A, & CNAME records at host  
+- A example.com > ip.add.re.ss
+- NS example.com > ns1.host.com.
+- CNAME www.example.com > example.com   
+
+make dir for it, & grant ownership
+`sudo mkdir -p /var/www/example.com/public_html`
+`sudo chown -R $USER:$USER /var/www/example.com/public_html`
+
+copy vhost, then edit server name, doc root, & alias within file
+`sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf`   
+
+enable vhost file
+`sudo a2ensite example.com.conf`   
+
+restart apache
+`sudo service apache2 restart`   
+
+ssl
+`certbot-auto --apache -d example.com -d www.example.com -d other.com [...]`   
+
 
 ### INPUT    
 
