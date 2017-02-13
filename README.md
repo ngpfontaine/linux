@@ -115,6 +115,14 @@ won't install
 symbolic link for nodejs & node
 `ls -s /usr/bin/nodejs/usr/bin/node`   
 
+### GIT   
+
+overwrite local
+`git reset --hard origin/master`   
+
+add remote repo url to local proj
+`git remote add origin [url]`   
+
 ### SSH & SERVER    
 
 create local, public ssh key    
