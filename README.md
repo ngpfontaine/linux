@@ -168,6 +168,14 @@ restart apache
 ssl
 `certbot-auto --apache -d example.com -d www.example.com -d other.com [...]`   
 
+### RSYNC   
+
+ignorelist
+`wget https://raw.githubusercontent.com/rubo77/rsync-homedir-excludes/master/rsync-homedir-excludes.txt -O /var/tmp/ignorelist`   
+
+backup
+`rsync -aP --exclude-from=/var/tmp/ignorelist /home/$USER/ /media/$USER/<drive>/<dir>/`      
+
 
 ### INPUT    
 
