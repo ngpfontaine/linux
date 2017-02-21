@@ -160,8 +160,9 @@ copy vhost, then edit server name, doc root, & alias within file
 `sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf`   
 
 add redirect to conf file
-`ServerName example.com`
-`Redirect / https://example.com/`   
+`ServerName www.example.com`
+`ServerAlias example.com`
+`Redirect permanent / https://example.com/`   
 
 copy and edit conf-le-ssl... file   
 
