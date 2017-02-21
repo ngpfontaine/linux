@@ -159,6 +159,12 @@ make dir for it, & grant ownership
 copy vhost, then edit server name, doc root, & alias within file
 `sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf`   
 
+add redirect to conf file
+`ServerName example.com`
+`Redirect / https://example.com/`   
+
+copy and edit conf-le-ssl... file   
+
 enable vhost file
 `sudo a2ensite example.com.conf`   
 
@@ -167,6 +173,12 @@ restart apache
 
 ssl
 `certbot-auto --apache -d example.com -d www.example.com -d other.com [...]`   
+
+letsencrypt w/ webroots
+`./letsencrypt-auto certonly --webroot -w 
+/var/www/domain.com/public_html -d www.domain.com -d domain.com -w 
+/var/www/mysite.net/public_html -d www.mysite.net -d mysite.net -w 
+/var/www/nicepage.org/public_html -d www.nicepage.org -d nicepage.org`   
 
 ### RSYNC   
 
