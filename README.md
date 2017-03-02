@@ -1,6 +1,6 @@
 # LINUX
 
-Personal linux related commands, articles, visual assets, etc.  
+Command reference, articles, personal visual assets, etc.     
 
 > [1. General Resources](https://github.com/ngpfontaine/linux/blob/master/RESOURCES.md)   
 
