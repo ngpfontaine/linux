@@ -107,6 +107,7 @@ cd into the tor dl directory, then run the next command
 ffmpeg batch convert
 `for i in *.avi; do ffmpeg -i "$i" "${i%.avi}.mov"; done`    
 
+
 ### NODE
 
 won't install
@@ -198,8 +199,8 @@ xinputs
 list props for xinput id=8   
 `xinput list-props 8`    
 
-xboxdrv   
-`xboxdrv...`    
+xboxdrv, hotplug 1 controller
+`sudo xboxdrv -c /home/nic/.xb01 -D`    
 
 ### AUDIO    
 
