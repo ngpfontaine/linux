@@ -235,6 +235,11 @@ find name of local net device
 sudoers, disable sudo auth on script   
 `[USER] ALL = NOPASSWD: /usr/bin/[SCRIPT NAME]`   
 
+### ETC   
+
+change default home dir names
+`vim ~/.config/user-dirs.dirs`   
+
 # Support Links
 
 [SSH Win to Home Linux w/ Putty - Superuser.com](http://superuser.com/questions/603831/how-to-connect-home-computers-linux-from-office-computer-windows-using-putty)   
