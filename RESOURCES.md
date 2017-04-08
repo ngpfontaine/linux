@@ -108,7 +108,7 @@ ffmpeg batch convert
 `for i in *.avi; do ffmpeg -i "$i" "${i%.avi}.mov"; done`    
 
 xclip (clipboard)
-xclip -sel c < [file]   
+`xclip -sel c < [file]`   
 
 
 ### NODE
