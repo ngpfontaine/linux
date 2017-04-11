@@ -62,6 +62,12 @@
 - kde connect (connect devices & control)
 - slash (slack terminal)
 
+### GNOME EXTENSIONS
+- background logo
+- dash to dock
+- hide activities button
+- straight top bar
+
 # Command Reference
 
 ### GRAPHICS DRIVERS    
