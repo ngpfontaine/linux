@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>chtsht - unix</title>
+	<link rel='stylesheet' href='./main.css'>
+</head>
+
+<body>
+
+	<h1>Unix Commands</h1>
+	<!-- HANDLEBAR CONTENT -->
+	<div id='container-main'></div>
+
+<script src="./masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+
+<!-- TEMPLATE -->
+<script id='temp-unix' type='text/x-handlebars-template'>
+
+	<ul id="items">
+	  {{#each sections}}
+    <li class="item">
+      <h2>{{title}}</h2>
+   
+      {{#each commands}}
+      <p><code>{{command}}</code> {{description}}</p>
+      {{/each}}
+    </li>
+	  {{/each}}
+	</ul>
+
+</script>
+
+<!-- JSON -->
+<script>
+	var context;
+	var request = new XMLHttpRequest();
+	request.open('GET', './unix.json', true);
+
+	request.onload = function() {
+	  if (request.status >= 200 && request.status < 400) {
+	  	// GET CONTENT FROM JSON FILE
+	    context = JSON.parse(request.responseText);
+	    //COMPILE W/ TEMPLATE
+	    var source = document.getElementById('temp-unix').innerHTML;;
+	    var template = Handlebars.compile(source);
+	    // ADD TO PAGE
+	    var html = template(context);
+	    document.getElementById('container-main').innerHTML = html;
+
+	    // MASONRY
+	    var elem = document.getElementById('container-main');
+	    	var msnry = new Masonry( elem, {
+	      // options
+	      itemSelector: '.item',
+	      columnWidth: 450,
+	      gutter: 30
+	    });
+
+	  } else {
+	    console.log('json - server reached, but error');
+	  }
+	};
+
+	request.onerror = function() {
+	  console.log('json - connection error');
+	};
+
+	request.send();
+
+</script>
+
+</body>
+
+</html>
