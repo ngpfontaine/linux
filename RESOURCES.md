@@ -61,6 +61,7 @@
 - dunst (desktop notifications)
 - kde connect (connect devices & control)
 - slash (slack terminal)
+- master pdf editor   
 
 ### GNOME EXTENSIONS
 - background logo
