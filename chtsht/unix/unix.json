@@ -141,6 +141,14 @@
           "description": "show directory space usage"
         },
         {
+          "command": "du -h /home/nic",
+          "description": "human readable format"
+        },
+        {
+          "command": "du -ah /home/nic/downloads",
+          "description": "usage of files in dir in readable format"
+        },
+        {
           "command": "free",
           "description": "show memory and swap usage"
         },
@@ -160,10 +168,6 @@
         {
           "command": "ps",
           "description": "display your currently active processes"
-        },
-        {
-          "command": "top",
-          "description": "display all running processes"
         },
         {
           "command": "kill pid",
@@ -452,9 +456,30 @@
       "title": "FFMPEG",
       "commands": [
         {
-          "command": "",
-          "description": ""
+          "command": "ffmpeg -i video.avi",
+          "description": "get info from file"
+        },
+        {
+          "command": "ffmpeg -f image2 -i image%d.jpg video.mpg",
+          "description": "image sequence to vid file"
+        },
+        {
+          "command": "ffmpeg -i video.mpg image%d.jpg",
+          "description": "video to image sequence"
+        },
+        {
+          "command": "ffmpeg -i source_video.avi -vn -ar 44100 -ac 2 -ab 192k -f mp3 sound.mp3",
+          "description": "sound from video to mp3"
+        },
+        {
+          "command": "ffmpeg -i video_origine.avi video_finale.mpg",
+          "description": ".avi to .mpg"
+        },
+        {
+          "command": "ffmpeg -i son.wav -i video_origine.avi video_finale.mpg",
+          "description" : "mix video w/ sound file"
         }
+
       ]
     },
     {
