@@ -250,6 +250,9 @@ change default home dir names
 private internet access installer
 `wget https://www.privateinternetaccess.com/installer/pia-nm.sh`   
 
+fix multi-monitor workspaces on gnome
+`gsettings set org.gnome.shell.overrides workspaces-only-on-primary false`   
+
 # Support Links
 
 [SSH Win to Home Linux w/ Putty - Superuser.com](http://superuser.com/questions/603831/how-to-connect-home-computers-linux-from-office-computer-windows-using-putty)   
