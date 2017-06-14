@@ -49,6 +49,7 @@
 - mc (terminal file browser w/ ftp)   
 - rofi (launcher)   
 - rtv (reddit terminal viewer)
+- ffado (firewire audio devices)
     
 ### CHECK-OUT    
 - peek (gif screen recording)
