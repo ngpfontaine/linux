@@ -490,6 +490,15 @@
           "description": ""
         }
       ]
-    }
+    },
+		{
+			"title": "SVN",
+			"commands": [
+				{
+					"command": "svn propset svn:externals 'LocalDir RemoteDir/Dir' .",
+					"description": "create external reference in new local dir"
+				}
+			]
+		}
   ]
 }
