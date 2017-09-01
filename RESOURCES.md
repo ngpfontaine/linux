@@ -50,6 +50,7 @@
 - rofi (launcher)   
 - rtv (reddit terminal viewer)
 - ffado (firewire audio devices)
+- bookworm (e-book reader)
     
 ### CHECK-OUT    
 - peek (gif screen recording)
