@@ -234,6 +234,14 @@ online acct. integration (xubuntu)
 `sudo apt install gnome-control-center`   
 `env XDG_CURRENT_DESKTOP=GNOME gnome-control-center`   
 
+### ARCH
+
+error: failed to commit transaction (invalid or corrupted package)   
+```sudo pacman-key --refresh-keys
+sudo pacman -S archlinux-keyring
+sudo pacman -Syu
+```   
+
 ### NETWORK    
 
 find name of local net device   
