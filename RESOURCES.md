@@ -225,6 +225,9 @@ mute pulseaudio mic
 change / mute toggle audio   
 `amixer -D pulse sset Master 5%+`   
 
+mute mic toggle   
+`amixer -D pulse sset Capture toggle`
+
 ### UBUNTU    
 
 change timezone   
@@ -233,6 +236,22 @@ change timezone
 online acct. integration (xubuntu)
 `sudo apt install gnome-control-center`   
 `env XDG_CURRENT_DESKTOP=GNOME gnome-control-center`   
+
+### SPOTIFY
+
+play   
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play`   
+
+next   
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next`   
+
+previous   
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous`   
+
+pause   
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause`   
+
+
 
 ### ARCH
 
